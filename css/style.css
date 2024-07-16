@@ -20,4 +20,16 @@
 }
 .content > :nth-child(3){ 
     background-color: brown;
+    display: flex;
+    flex-direction: column;
+}
+.content > :nth-child(3) > :nth-child(1){
+    width: 100%;
+    height: 30%; 
+    background-color: aqua;
+}
+.content > :nth-child(3) > :nth-child(2){
+    width: 100%;
+    height: 70%; 
+    background-color: chocolate;
 }
