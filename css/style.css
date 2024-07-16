@@ -7,4 +7,17 @@
     width: 100vw;
     height: 100vh;
     background-color: brown;
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-template-rows: 1fr 10fr;
+}
+.content > :nth-child(1){
+    grid-column: span 2;
+    background-color: cornflowerblue;
+}
+.content > :nth-child(2){
+    background-color: deepskyblue;
+}
+.content > :nth-child(3){
+    background-color: brown;
 }
