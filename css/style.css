@@ -18,6 +18,6 @@
 .content > :nth-child(2){
     background-color: deepskyblue;
 }
-.content > :nth-child(3){
+.content > :nth-child(3){ 
     background-color: brown;
 }
